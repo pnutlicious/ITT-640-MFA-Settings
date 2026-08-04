@@ -1,0 +1,64 @@
+/* Global dark theme */
+body {
+    background: #0f0f0f;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Settings page container */
+.settings-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Section boxes */
+.section {
+    background: #1a1a1a;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.section h2,
+.section h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/* Inner item boxes */
+.item {
+    background: #0f0f0f;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.item p {
+    margin: 5px 0;
+}
+
+/* Top navigation buttons */
+.top-buttons {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.top-buttons a {
+    margin-left: 10px;
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+.top-buttons a:hover {
+    color: #357abd;
+}
+
+/* Warning text */
+.warning {
+    margin-top: 15px;
+    font-size: 13px;
+    color: #ccc;
+}
