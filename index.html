@@ -4,109 +4,72 @@
     <meta charset="UTF-8">
     <title>Account Settings</title>
     <link rel="stylesheet" href="styles.css">
-
-    <style>
-        /* Page layout additions */
-        .settings-container {
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 0 20px;
-        }
-
-        .section {
-            background: #1a1a1a;
-            padding: 25px;
-            border-radius: 10px;
-            margin-bottom: 25px;
-        }
-
-        .section h2,
-        .section h3 {
-            margin-top: 0;
-            margin-bottom: 10px;
-        }
-
-        .item {
-            background: #0f0f0f;
-            padding: 15px;
-            border-radius: 8px;
-            margin-bottom: 15px;
-        }
-
-        .item p {
-            margin: 5px 0;
-        }
-
-        .top-buttons {
-            text-align: right;
-            margin-bottom: 20px;
-        }
-
-        .top-buttons a {
-            margin-left: 10px;
-            color: #4a90e2;
-            text-decoration: none;
-        }
-
-        .top-buttons a:hover {
-            color: #357abd;
-        }
-
-        .warning {
-            margin-top: 15px;
-            font-size: 13px;
-            color: #ccc;
-        }
-    </style>
 </head>
 <body>
 
-<div class="settings-container">
+<h1 class="site-title">ITT‑640 MFA Website Prototype</h1>
 
-    <!-- Top Buttons -->
-    <div class="top-buttons">
+<div class="layout">
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+        <h3>Navigation</h3>
         <a href="https://pnutlicious.github.io/ITT-640-MFA-Dashboard/">Dashboard</a>
+        <a href="https://pnutlicious.github.io/ITT-640-MFA-Enroll/">Enroll</a>
+        <a href="https://pnutlicious.github.io/ITT-640-MFA-Devices/">Devices</a>
+        <a href="https://pnutlicious.github.io/ITT-640-MFA-Settings/">Settings</a>
+        <a href="https://pnutlicious.github.io/ITT-640-MFA-Login/">Sign Out</a>
     </div>
 
-    <!-- Header -->
-    <div class="section">
-        <h2>Account Security</h2>
-        <p><strong>Account:</strong> Israel@live.com</p>
-    </div>
+    <!-- MAIN CONTENT -->
+    <div class="settings-container">
 
-    <!-- Account Settings -->
-    <div class="section">
-        <h3>Account Settings</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </div>
-
-    <!-- Security & Credentials -->
-    <div class="section">
-        <h3>Security & Credentials</h3>
-
-        <div class="item">
-            <p><strong>Change Password</strong></p>
-            <p>Last changed 42 days ago</p>
+        <!-- Top Buttons -->
+        <div class="top-buttons">
+            <a href="https://pnutlicious.github.io/ITT-640-MFA-Dashboard/">Dashboard</a>
         </div>
 
-        <div class="item">
-            <p><strong>Update Email</strong></p>
-            <p>Israel@live.com</p>
+        <!-- Header -->
+        <div class="section">
+            <h2>Account Security</h2>
+            <p><strong>Account:</strong> Israel@live.com</p>
         </div>
 
-        <div class="item">
-            <p><strong>Manage Recovery Options</strong></p>
-            <p>2 options configured</p>
+        <!-- Account Settings -->
+        <div class="section">
+            <h3>Account Settings</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
 
-        <p class="warning">
-            Sensitive changes require identity confirmation.  
-            If you did not initiate a change, contact ITSupport@live.com immediately.
-        </p>
-    </div>
+        <!-- Security & Credentials -->
+        <div class="section">
+            <h3>Security & Credentials</h3>
 
-</div>
+            <div class="item">
+                <p><strong>Change Password</strong></p>
+                <p>Last changed 42 days ago</p>
+            </div>
+
+            <div class="item">
+                <p><strong>Update Email</strong></p>
+                <p>Israel@live.com</p>
+            </div>
+
+            <div class="item">
+                <p><strong>Manage Recovery Options</strong></p>
+                <p>2 options configured</p>
+            </div>
+
+            <p class="warning">
+                Sensitive changes require identity confirmation.<br>
+                If you did not initiate a change, contact ITSupport@live.com immediately.
+            </p>
+        </div>
+
+    </div> <!-- end settings-container -->
+
+</div> <!-- end layout -->
 
 </body>
 </html>
