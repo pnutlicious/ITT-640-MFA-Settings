@@ -9,6 +9,7 @@ body {
 
 /* Settings page container */
 .settings-container {
+    flex: 1; /* allows sidebar + content layout */
     max-width: 900px;
     margin: 40px auto;
     padding: 0 20px;
@@ -61,4 +62,61 @@ body {
     margin-top: 15px;
     font-size: 13px;
     color: #ccc;
+}
+
+/* --------------------------------------------- */
+/* MATCHED SIDEBAR + LAYOUT (Enroll + Dashboard + Devices + Settings) */
+/* --------------------------------------------- */
+
+.layout {
+    display: flex;
+    gap: 25px;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 220px;
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.sidebar h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.sidebar a {
+    display: block;
+    color: #4a90e2;
+    text-decoration: none;
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+
+.sidebar a:hover {
+    color: #357abd;
+}
+
+/* Sidebar user info */
+.user-info p {
+    margin: 5px 0;
+}
+
+.signout-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #00B3AA;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.signout-link:hover {
+    background: #e60000;
 }
