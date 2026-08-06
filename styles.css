@@ -6,7 +6,15 @@ body {
     margin: 0;
     padding: 0;
 }
-
+/* Title */
+.site-title {
+    font-size: 42px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto 20px auto;
+}
 /* Settings page container */
 .settings-container {
     flex: 1; /* allows sidebar + content layout */
